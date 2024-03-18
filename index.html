@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="censured.php" method="get">
+        <div>
+          <label for="sentence">Sentence</label>
+          <textarea
+            name="sentence"
+            id="sentence"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <small id="sentenceHelper">add a paragrapo to censor</small>
+        </div>
+
+        <div>
+          <label for="word">Word</label>
+          <input
+            type="text"
+            name="word"
+            id="word"
+            placeholder="type a paragraph"
+          />
+          <small id="wordHelper">add a paragrapo to censor</small>
+        </div>
+        <button type="submit">Censura</button>
+      </form>
+    </div>
+  </body>
+</html>
